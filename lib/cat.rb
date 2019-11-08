@@ -8,5 +8,8 @@ class Cat
     @owner = owner
   end
   
-  
+  #Class Methods
+  def self.all
+    @@all
+  end
 end
