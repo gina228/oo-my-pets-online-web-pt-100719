@@ -9,6 +9,7 @@ class Cat
   end
   
   #Class Methods
-  def self.all
+  def Cat.all
+    @cat
   end
 end
